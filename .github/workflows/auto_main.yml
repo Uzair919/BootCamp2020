@@ -32,4 +32,4 @@ jobs:
     - name: Installing  Surge
       run: npm install --global surge
     - name: Deoplying Using Surge
-      run: surge ./possible-table.surge.sh --token $ {{ secrects.SURGE_TOKEN }}
+      run: surge ./ possible-table.surge.sh --token $ {{ secrects.SURGE_TOKEN }}
